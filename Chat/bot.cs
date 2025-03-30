@@ -19,7 +19,7 @@ namespace Chat
             name = Console.ReadLine();
 
             // Greet the user
-            Console.WriteLine($"Hello {name}! Please enter your question.");
+            Console.WriteLine($"Hello {name}!");
 
             // Populate the replies and ignore lists
             store_replies();
