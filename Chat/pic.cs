@@ -13,7 +13,7 @@ namespace Chat
         public void displayImage()
         {
             //image path
-            string path = "C:\\Users\\melok\\source\\repos\\Chat\\Chat\\download.jpg";
+            string path = "download.jpg";
             Bitmap image = new Bitmap(path);
             int width = 80;  // Adjust width for console
             int height = (int)(image.Height / (image.Width / (double)width));
